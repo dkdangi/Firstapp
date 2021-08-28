@@ -1,5 +1,6 @@
 //import 'package:first_app/pages/home_page.dart';
-import 'package:first_app/pages/image_page.dart';
+import 'package:first_app/pages/column_page.dart';
+//import 'package:first_app/pages/image_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Flutter First App",
-      home:  ImagePage()
+      home:  ColumnPage()
     );
   }
 }
