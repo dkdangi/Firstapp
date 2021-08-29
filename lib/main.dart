@@ -1,5 +1,6 @@
 //import 'package:first_app/pages/home_page.dart';
 import 'package:first_app/pages/column_page.dart';
+import 'package:first_app/pages/tiktok_stack.dart';
 //import 'package:first_app/pages/image_page.dart';
 import 'package:flutter/material.dart';
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Flutter First App",
-      home:  ColumnPage()
+      home:  TiktokStack()
     );
   }
 }
