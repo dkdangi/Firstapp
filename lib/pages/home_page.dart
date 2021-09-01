@@ -1,7 +1,11 @@
+import 'package:first_app/pages/day6.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
+  final UserData userData;
+
+  const HomePage (this.userData);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,11 +24,11 @@ class HomePage extends StatelessWidget {
             borderRadius: BorderRadius.all(Radius.circular(10)),
           ),
           child: Text(
-            "home page",
+            "UserName:${userData.username},UserId: ${userData.userId}",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontSize: 18,
-              color: Colors.red,
+              color: Colors.white,
               fontWeight: FontWeight.bold,
               fontStyle: FontStyle.italic,
               backgroundColor: Colors.deepOrangeAccent,
