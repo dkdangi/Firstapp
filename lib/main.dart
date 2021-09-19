@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
 
       debugShowCheckedModeBanner: false,
       title: "Flutter First App",
-      //home:  day6()
+      //home:  Day7()
     );
   }
 }

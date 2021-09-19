@@ -1,4 +1,4 @@
-import 'package:first_app/pages/tiktok_stack.dart';
+
 import 'package:flutter/material.dart';
 
 
@@ -32,6 +32,12 @@ class Day6 extends StatelessWidget {
                 Navigator.pushNamed(context, "/columnPage");
               },
               child: Text("ColumnPage"),
+            ),
+            ElevatedButton(
+              onPressed: (){
+                Navigator.pushNamed(context, "/day7");
+              },
+              child: Text("Day7"),
             ),
             ElevatedButton(
               onPressed: (){
